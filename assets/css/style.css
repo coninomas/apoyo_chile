@@ -1,0 +1,46 @@
+:root {
+    --celeste: #0DCAF0;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+nav img {
+    width: 3%;
+}
+
+.contenedor {
+    max-width: 100vw;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.iconoqs {
+    text-align: center;
+    background-color: var(--celeste);
+}
+
+.card {
+    color: var(--blanco);
+    background-color: var(--celeste);
+}
+
+.card img {
+    height: 150px;
+}
+
+footer {
+    color: var(--blanco);
+    background-color: var(--celeste);
+}
